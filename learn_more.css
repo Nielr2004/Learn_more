@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: left;
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(255, 255, 255);
+    margin-left: 60px;
+}
+.back-button{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-align: left;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.back-button:hover {
+    background-color: #0ee832;
+  }
+
+h2{
+    color: #0ee832;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    margin-left: 851px;
+}
+section{
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+.Team{
+    flex: 1;
+    color: white;
+    font-size: 28px;
+  }
